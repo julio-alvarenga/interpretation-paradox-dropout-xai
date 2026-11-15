@@ -2,7 +2,7 @@
 
 Companion code for the article **"The Interpretation Paradox in Educational Data Mining: A Comparative XAI Audit of Supervised and One-Class Dropout Predictors"** (J. C. N. Alvarenga and C. Z. Resende, Federal Institute of Espirito Santo, Ifes).
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USER/interpretation-paradox-dropout-xai/blob/main/interpretation_paradox_dropout_xai.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/julio-alvarenga/interpretation-paradox-dropout-xai/blob/main/Notebook_Interpretation_Paradox_XAI_Audit_EN.ipynb)
 
 The notebook compares supervised dropout predictors (Random Forest with six resampling strategies and cost-sensitive XGBoost) with One-Class detectors (OC-SVM, Isolation Forest, LOF, Autoencoder), tests the differences statistically, audits SHAP and LIME explanations of XGBoost and Isolation Forest, and runs an exploratory equity audit with a two-layer simulation.
 
@@ -21,7 +21,7 @@ The notebook compares supervised dropout predictors (Random Forest with six resa
 
 **Locally.**
 ```bash
-git clone https://github.com/USER/interpretation-paradox-dropout-xai.git
+git clone https://github.com/julio-alvarenga/interpretation-paradox-dropout-xai.git
 cd interpretation-paradox-dropout-xai
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt jupyter
