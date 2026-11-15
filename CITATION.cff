@@ -8,5 +8,5 @@ authors:
   - family-names: "Resende"
     given-names: "Cassius Zanetti"
 # TODO: replace USER with the GitHub user or organization name
-repository-code: "https://github.com/USER/interpretation-paradox-dropout-xai"
+repository-code: "https://github.com/julio-alvarenga/interpretation-paradox-dropout-xai"
 license: MIT
